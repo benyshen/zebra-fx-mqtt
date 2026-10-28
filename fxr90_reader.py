@@ -37,7 +37,7 @@ except ImportError:  # pragma: no cover
     mqtt = None
 
 APP_NAME = "Zebra FX·MQTT 标签读取器"
-APP_VER = "1.0.0"
+APP_VER = "1.01"
 
 # ---------------------------------------------------------------- 外观常量
 BG = "#12161b"

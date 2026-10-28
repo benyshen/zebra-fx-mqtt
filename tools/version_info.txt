@@ -1,0 +1,29 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 1, 0),
+    prodvers=(1, 0, 1, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '080404b0',
+        [StringStruct('CompanyName', '条码AI一线'),
+         StringStruct('FileDescription', 'Zebra FX·MQTT 标签读取器'),
+         StringStruct('FileVersion', '1.0.1.0'),
+         StringStruct('InternalName', 'FXR90Reader'),
+         StringStruct('LegalCopyright', 'Copyright (c) 2026 条码AI一线'),
+         StringStruct('OriginalFilename', 'FXR90Reader.exe'),
+         StringStruct('ProductName', '条码AI一线-V1.01'),
+         StringStruct('ProductVersion', '1.0.1.0'),
+         StringStruct('Comments', 'Zebra 固定式 RFID 读写器 MQTT 标签读取客户端')
+        ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)

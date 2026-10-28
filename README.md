@@ -73,6 +73,7 @@ Windows 桌面客户端：通过 MQTT(S) 订阅 Zebra FXR90（IoT Connector）�
 uv pip install --python .venv/Scripts/python.exe paho-mqtt pyinstaller
 .venv/Scripts/pyinstaller.exe --noconfirm --clean --onefile --windowed \
   --name FXR90Reader --icon tools/FXR90Reader.ico \
+  --version-file tools/version_info.txt \
   --distpath dist --workpath build --specpath build fxr90_reader.py
 cp config.json dist/config.json
 ```
