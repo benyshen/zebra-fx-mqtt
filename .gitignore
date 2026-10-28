@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# PyInstaller
+build/
+dist/*.exe
+
+# 运行产物
+*.log
+error.log
+selftest.txt
+_test_export.csv
+shot*.png
+_screens/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 本机真实配置/截图不进仓库
+dist/config.json
+dist/screenshot.png

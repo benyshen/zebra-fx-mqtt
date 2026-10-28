@@ -1,0 +1,21 @@
+{
+  "host": "broker.example.com",
+  "port": 8883,
+  "tls": true,
+  "verify_cert": true,
+  "ca_file": "",
+  "username": "mqtt",
+  "password": "mqtt",
+  "client_id": "fxr90_win_001",
+  "mqtt_version": "5",
+  "keepalive": 60,
+  "tag_topic": "/FXR90/tag",
+  "response_topic": "/FXR90/response",
+  "management_topic": "/FXR90/meresponse",
+  "command_topic": "/FXR90/command",
+  "send_commands": true,
+  "auto_connect": false,
+  "autoscroll": true,
+  "max_rows_ui": 5000,
+  "_说明": "主题由读头端 MQTT 端点配置决定：标签 /FXR90/tag、指令响应 /FXR90/response、管理事件 /FXR90/meresponse、控制指令 /FXR90/command（也支持 + 与 # 通配）"
+}
