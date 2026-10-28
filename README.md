@@ -5,9 +5,9 @@
 Windows 桌面客户端：通过 MQTT(S) 订阅 Zebra FXR90（IoT Connector）的标签事件，
 按 EPC 去重汇总成实时列表，并可用按钮控制读头开始/结束读取。
 
-- 直接可用的程序：`dist\FXR90Reader.exe`（单文件，免安装，无需 Python）
+- 直接下载：**[Releases](https://github.com/benyshen/zebra-fx-mqtt/releases)** 里的 `FXR90Reader.exe`（单文件 13 MB，免安装、无需 Python）
 - 源码：`fxr90_reader.py`（Python 3.10+ / tkinter / paho-mqtt 2.x）
-- 配置：`config.json`（与 exe 同目录，改完重启程序生效）
+- 配置：`config.json`（与 exe 同目录，首次运行自动生成；仓库里这份是模板，Broker 主机名已脱敏，改成你自己的即可）
 - 📄 **完整项目文档（架构 / 模块 / 功能 / 界面 / 使用 / 踩坑）：[docs/项目发布文档.md](docs/项目发布文档.md)**
 
 ## 主题（由读头端 MQTT 端点配置决定）
